@@ -10,7 +10,7 @@ https://nodejs.org/en/download/
 ## Clone repo
 Clone the repository onto your computer, put it in a location where you can find it easy
 
-## install packages for fronted
+## install packages for frontend
 Run the command 'npm install' in your cloned directory. This should install all the packages necessary for running the web app
 
 ## Open/run web app
