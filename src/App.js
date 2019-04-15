@@ -81,11 +81,11 @@ class App extends Component {
     } else if (this.state.form == 'car') {
       axios.post("http://localhost:5000/car", {
         // car
-        license: '',
-        year: '',
-        make: '',
-        model: '',
-        cid: '',
+        license: this.state.license,
+        year: this.state.year,
+        make: this.state.make,
+        model: this.state.model,
+        cid: this.state.cid,
 
       })
         .then((response) => {
